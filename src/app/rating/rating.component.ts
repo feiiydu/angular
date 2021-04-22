@@ -11,10 +11,6 @@ export class RatingComponent implements OnInit {
   starWidth =0;
   
   constructor() {
-    this.ConvertToStar(this.targetScore);
-  }
-
-  ConvertToStar(targetScore : number) {
   }
 
   ngOnInit(): void {
