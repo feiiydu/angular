@@ -10,6 +10,7 @@ export class AppComponent {
   result = "hi";
   data = "";
   username = "";
+  tasks = ['1','2'];
 
   onPress(event: any) {
     console.log(event.target.value)
