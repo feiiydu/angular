@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'angular';
+  name = 'Nonggap';
+  result = "hi";
+
+  onPress(event: any) {
+    console.log(event.target.value)
+    this.result = event.target.value
+  }
 }
