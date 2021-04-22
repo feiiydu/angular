@@ -1,1 +1,23 @@
 <p>login works!</p>
+
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">First name</th>
+            <th scope="col">Last name</th>
+            <th scope="col">Email</th>
+            
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let u of users">
+            <th scope="row">{{u.id}} </th>
+            <td>{{u.firstName}} </td>
+            <td>{{u.lastName}} </td>
+            <td>{{u.email}} </td>
+        </tr>
+    </tbody>
+</table>
